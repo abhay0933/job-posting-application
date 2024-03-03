@@ -17,5 +17,5 @@ app.use("/api/v1/job/", jobroutes);
 
 
 
-app.listen("4001", ()=> console.log("Job Application startedd"));
+app.listen("10000", ()=> console.log("Job Application startedd"));
 
