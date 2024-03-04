@@ -10,7 +10,7 @@ mongoose.connect("mongodb+srv://abhay80912:abhay0933@cluster0.iliwfrx.mongodb.ne
 .then(()=> console.log("db connected successfully"))
 .catch(() => console.log("problem occured while connecting to db"))
 
-app.use(express.json())
+app.use(express.json());
 
 app.use("/api/v1/job/", jobroutes);
 
